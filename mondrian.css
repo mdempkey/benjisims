@@ -76,7 +76,7 @@ body {
 		display:flex
 	}
 	.color1 {background-color: pink;}
-	.color2 {background-color: pink;}
+	.color2 {background-color: #E6564E;}
 	.color3 {background-color: purple;}
 	.photo {content: url("images/297035637112201.jpg");}
 	
@@ -92,6 +92,10 @@ body {
 	.color2 {background-color: gray;}
 	.color3 {background-color:#8D55A1;}
 	.photo {content: url("images/Benji-Krol-Canadian-TikTok-Star-YouTube-Content-Creator-Social-Media-Personality-and-Instagram-Influencer.jpg");}
-	.gif {content: url("images/butterfly.gif");}
+	.gif {
+		content: url("images/butterfly.gif");
+		max-width:100%;
+		max-height:100%;
+	}
 }
 
